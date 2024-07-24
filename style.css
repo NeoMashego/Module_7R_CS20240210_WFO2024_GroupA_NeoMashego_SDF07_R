@@ -135,3 +135,9 @@ nav { display: none;}
         width: calc(100% + 1.5em);
     }
 }
+
+.my-services {
+    background-color: var(--clr-dark);
+    background-image: url(./images/services-bg.jpg);
+    color: var(--clr-light);
+}
