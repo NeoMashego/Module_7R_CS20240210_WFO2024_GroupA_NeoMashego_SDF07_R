@@ -19,3 +19,12 @@
     --font-h3: 1.25rem;
     --font-body: 1rem;
 }
+
+@media (min-width: 800px) {     /*with change of screen size, font size will change too*/
+    :root {
+        --font-h1: 4.5;
+        --font-h2: 3.75rem;
+        --font-h3: 1.5rem;
+        --font-body: 1.125rem;
+    }
+}
