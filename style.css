@@ -159,3 +159,20 @@ nav { display: none;}
     background: currentColor;
     opacity: 0.25;
 }
+
+.service {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .services {
+        display: flex;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .service + .service {
+        margin-left: 2em;
+    }
+}
