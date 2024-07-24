@@ -1,5 +1,5 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    box-sizing: border-box; /* putting a width in a width making it easier for styling*/
 }
