@@ -139,5 +139,23 @@ nav { display: none;}
 .my-services {
     background-color: var(--clr-dark);
     background-image: url(./images/services-bg.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
     color: var(--clr-light);
+    text-align: center;
+}
+
+.section__title--services {
+    color: var(--clr-accent);
+    position: relative;
+}
+
+.section__title--services::after {
+    content: '';
+    display: block;
+    width: 15%;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: currentColor;
+    opacity: 0.25;
 }
