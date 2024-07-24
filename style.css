@@ -11,8 +11,9 @@
     --font-weight: 300;
     --font-bold: 900;
 
-    --backgroun-clr1: #fff;
-    --text-clr1: #303030;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
 
     --font-h1: 3rem;
     --font-h2: 2.25rem;
@@ -27,4 +28,10 @@
         --font-h3: 1.5rem;
         --font-body: 1.125rem;
     }
+}
+
+/* General Styles*/
+
+body {
+    background: var(--clr-light);
 }
