@@ -23,7 +23,7 @@
 
 @media (min-width: 800px) {     /*with change of screen size, font size will change too*/
     :root {
-        --font-h1: 4.5;
+        --font-h1: 4.5rem;
         --font-h2: 3.75rem;
         --font-h3: 1.5rem;
         --font-body: 1.125rem;
@@ -40,3 +40,21 @@ body {
     font-size: var(--font-body);
     line-height: 1.6;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 { font-size: var(--font-h1); }
+h2 { font-size: var(--font-h2); }
+h3 { font-size: var(--font-h3); }
