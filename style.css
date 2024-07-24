@@ -83,3 +83,13 @@ h3 { font-size: var(--font-h3); }
     background: var(--clr-accent);
     font: var(--font2);
 }
+
+/* Header */
+
+nav { display: none;}
+
+/* Into section */
+
+.intro {
+    position: relative;
+}
