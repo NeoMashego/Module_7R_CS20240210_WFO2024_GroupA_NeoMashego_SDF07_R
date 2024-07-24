@@ -61,6 +61,10 @@ h1 { font-size: var(--font-h1); }
 h2 { font-size: var(--font-h2); }
 h3 { font-size: var(--font-h3); }
 
+section {
+    padding: 5em 2em;
+}
+
 .section__title {
     margin-bottom: .25em;
 }
