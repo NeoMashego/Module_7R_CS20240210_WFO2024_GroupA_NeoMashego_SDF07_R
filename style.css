@@ -273,7 +273,13 @@ nav { display: none;}
     overflow: hidden;
 }
 
-.portfolio__img:hover {
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img{
     transform: scale(1.2);
     opacity: .75; /*can change opacity for imgs to be stronger*/
 }
