@@ -148,8 +148,6 @@ header {
     color: var(--clr-accent);
 }
 
-/* Button-Hamburger icon selectors */
-
 .nav-toggle {
     padding: .5em;
     background: transparent;
@@ -160,6 +158,12 @@ header {
     top: 1em;
     z-index: 1000;
 }
+
+.nav-open {
+    background: darkblue;
+}
+
+/* Button-Hamburger icon selectors */
 
 .hamburger {
     display: block;
