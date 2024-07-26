@@ -262,3 +262,18 @@ nav { display: none;}
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* automatically makes 3 columns =repeat(3, 1fr)*/
     grid-column-gap: none; /* remove gaps from imgs in this grid */
 }
+
+.portfolio__item {
+    background: var(--clr-accent);
+}
+
+.portfolio__img {
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
+                opacity 250ms linear;
+    overflow: hidden;
+}
+
+.portfolio__img:hover {
+    transform: scale(1.2);
+    opacity: .75; /*can change opacity for imgs to be stronger*/
+}
