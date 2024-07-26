@@ -248,4 +248,17 @@ nav { display: none;}
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
+    text-align: center;
+}
+
+.section__subtitle--work {
+    color: var(--clr-accent);
+    font-weight: var(--font-bold);
+    text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* automatically makes 3 columns =repeat(3, 1fr)*/
+    grid-column-gap: none; /* remove gaps from imgs in this grid */
 }
