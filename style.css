@@ -159,8 +159,8 @@ header {
     z-index: 1000;
 }
 
-.nav-open {
-    background: darkblue;
+.nav-open .nav {
+    transform: translateX(0);
 }
 
 /* Button-Hamburger icon selectors */
